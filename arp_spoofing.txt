@@ -1,0 +1,7 @@
+-> The code sends spoofed arp response packets
+
+-> It sends two types of response packets
+   1) A packet to the router claiming that attackers mac address is the destination mac address for the victim's IP address.
+   2) Similar process in second response tells the victim that we are the router.
+   
+The packets are sent continously untill you force quit using ctrl+c
